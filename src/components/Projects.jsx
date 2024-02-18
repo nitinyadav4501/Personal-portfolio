@@ -6,6 +6,11 @@ import alokTelecom from '../assets/alokTelecom.png'
 import iCoder from '../assets/iCoder.png'
 import portfolio from '../assets/portfolio.png'
 import passwordGen from '../assets/passwordGen.png'
+import calculator from '../assets/calculator.png'
+import todoList from '../assets/todolist.png'
+import weather from '../assets/weatherap.png'
+import countdown from '../assets/countdown.png'
+import countrydata from '../assets/countrydata.png'
 
 function Projects() {
   return (
@@ -19,6 +24,11 @@ function Projects() {
         <MyProject image={iCoder} name={'iCoder Blog'} detail={'This is a Blog website'} tech={'HTML, Bootstrap'}/>
         <MyProject image={portfolio} name={'My personal Portfolio'} detail={'This is my personal portfolio'} tech={'React JS, Tailwind CSS'}/>
         <MyProject image={passwordGen} name={'A Random password Generator'} detail={'This is Random password Generator'} tech={'HTML,CSS JS'}/>
+        <MyProject image={calculator} name={'A calculator'} detail={'A simple calculator where we can calculate'} tech={'React JS, Tailwind CSS'}/>
+        <MyProject image={todoList} name={'Todo manager'} detail={'A todolist where we can add your daily todo'} tech={'React JS, Tailwind CSS'}/>
+        <MyProject image={weather} name={'Weather app'} detail={'A weather app where we can find weather of anywhere'} tech={'React JS, Tailwind CSS'}/>
+        <MyProject image={countdown} name={'Countdown'} detail={'A simple assignment- countdown'} tech={'HTML, CSS, JS'}/>
+        <MyProject image={countrydata} name={'Country data web app'} detail={'Country data app where we can know about countries'} tech={'HTML, CSS, JS'}/>
       </div>
     </>
   )

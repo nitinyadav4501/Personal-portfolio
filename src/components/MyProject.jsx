@@ -2,7 +2,7 @@ import React from 'react'
 
 function MyProject(props) {
   return (
-    <div className="shadow-xl space-y-3 w-fit mx-auto p-4 mt-4 hover:scale-105 transition">
+    <div className="shadow-xl space-y-3 w-fit mx-auto max-w-[22rem] p-4 mt-4 hover:scale-105 transition">
       <div>
         <img className='h-44' src={props.image}/>
       </div>

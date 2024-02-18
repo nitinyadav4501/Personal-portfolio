@@ -13,7 +13,8 @@ function Hero() {
                         <p className='text-2xl font-bold '>Hello I'm</p>
                         <p className='text-4xl font-bold text-orange-600'>Nitin yadav</p>
                         <p className='text-2xl font-bold text-[#172554]'>Web Developer from India</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, tenetur expedita minus distinctio porro reiciendis,consequatur rem </p>
+                        <p>Entry-level Frontend web developer. Proven ability to create components for an enterprise level web application.
+Passionate about technology and building scalable web solution.</p>
                         <button className='bg-orange-400 p-2 px-4 rounded-full text-blue-950 font-bold hover:bg-orange-300'> <Link to='/about' > About me</Link></button>
                     </div>
                     <MyImg image={image} />
