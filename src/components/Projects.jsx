@@ -11,12 +11,15 @@ import todoList from '../assets/todolist.png'
 import weather from '../assets/weatherap.png'
 import countdown from '../assets/countdown.png'
 import countrydata from '../assets/countrydata.png'
+import { Slide } from 'react-awesome-reveal'
 
 function Projects() {
   return (
     <>
+    <Slide direction='down'>
       <p className='text-4xl text-center mt-10 font-bold text-orange-600'>- My Projects -</p>
       <p className='text-2xl text-center mt-6 font-bold text-orange-600 underline'><a href="https://github.com/nitinyadav4501">Visit Github</a></p>
+    </Slide>
       <div className='text-[#172554] space-y-4 min-h-[37rem] grid grid-cols-1 md:grid-cols-3 pb-10 mt-3'>
         <MyProject image={amazon} name={'Amazon clone UI'} detail={'This is the Amazon UI Clone'} tech={'HTML, CSS'} />
         <MyProject image={netflix} name={'Netflix clone UI'} detail={'This is the Netflix UI Clone'} tech={'HTML, CSS, JS'}/>

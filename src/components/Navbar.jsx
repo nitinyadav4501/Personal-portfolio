@@ -1,10 +1,11 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import pdf from '../assets/Nitin yadav.pdf'
+import { Slide } from 'react-awesome-reveal'
 
 function Navbar() {
     return (
-        <div>
+        <Slide direction='down'>
             <nav className='text-blue-950  md:flex md:flex-row flex flex-wrap flex-col gap-y-4 justify-around items-center w-full p-4 shadow-xl '>
                 <h1 className='text-3xl font-extrabold font-serif text-orange-600 '>Nitin Yadav</h1>
                 <div className='md:flex gap-y-3 gap-x-8 flex-wrap justify-center items-center flex flex-col md:flex-row '>
@@ -18,7 +19,7 @@ function Navbar() {
                     <Link to={pdf} download='MyPortfolio' target='__blank'><button className='bg-orange-400 font-bold text-blue-950 p-2 px-3 hover:bg-orange-300 active:bg-orange-400 rounded-full'>Download CV</button></Link>
                 </div>
             </nav>
-        </div>
+        </Slide>
     )
 }
 
