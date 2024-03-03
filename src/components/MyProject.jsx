@@ -3,7 +3,6 @@ import { Slide } from "react-awesome-reveal";
 
 function MyProject(props) {
   return (
-    <Slide direction="up">
       <div className="shadow-xl space-y-3 w-fit mx-auto max-w-[22rem] p-4 mt-4 hover:scale-105 transition">
         <div>
           <img className="h-44" src={props.image} />
@@ -15,7 +14,6 @@ function MyProject(props) {
           <p>{props.tech}</p>
         </div>
       </div>
-    </Slide>
   );
 }
 

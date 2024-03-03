@@ -1,11 +1,9 @@
 import React from 'react'
 import MyImg from './MyImg'
 import image from '../assets/myImg.png';
-import { Slide } from 'react-awesome-reveal';
 
 function About() {
     return (
-        <Slide direction='up'>
             <div className="min-h-[37rem] text-[#172554] md:flex flex gap-y-4 py-5 flex-col md:flex-row justify-center items-center md:justify-around">
                 <MyImg image={image}/>
                 <div className='space-y-7 basis-1/2 text-center md:text-left px-5'>
@@ -15,7 +13,6 @@ function About() {
                     <p className='text-2xl font-bold'>Web Developer from India</p>
                 </div>
             </div>
-        </Slide>
     )
 }
 

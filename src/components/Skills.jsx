@@ -7,11 +7,9 @@ import tailwind from "../assets/tailwind.png";
 import react from "../assets/react.png";
 import python from "../assets/python.webp";
 import sql from "../assets/mysql.webp";
-import { Slide } from "react-awesome-reveal";
 
 function Skills() {
   return (
-    <Slide direction="up">
       <div className="min-h-[37rem] text-center space-y-10 mt-10">
         <p className="text-4xl font-bold text-orange-600">- My Skills -</p>
         <div className="grid gap-y-10 md:grid-cols-4 grid-cols-2 pb-10">
@@ -24,7 +22,6 @@ function Skills() {
           <MySkill skill={"React JS"} num={"7."} image={react} />
         </div>
       </div>
-    </Slide>
   );
 }
 

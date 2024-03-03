@@ -3,7 +3,6 @@ import { Slide } from "react-awesome-reveal";
 
 function Contact() {
   return (
-    <Slide direction="up">
       <div className="min-h-[37rem] flex justify-around items-center">
         <div className="space-y-8">
           <div>
@@ -36,7 +35,6 @@ function Contact() {
           </form>
         </div>
       </div>
-    </Slide>
   );
 }
 

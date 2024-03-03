@@ -2,12 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import MyImg from "./MyImg";
 import image from "../assets/myImg.png";
-import {Slide,} from "react-awesome-reveal";
 
 function Hero() {
   return (
     <>
-      <Slide direction="up">
         <div className="min-h-[37rem] text-[#172554]  flex justify-center items-center">
           <div className="flex-wrap justify-center md:justify-around space-y-10 py-4 flex items-center md:flex">
             <div className="md:space-y-4 text-center md:text-left space-y-5 basis-1/2">
@@ -28,7 +26,6 @@ function Hero() {
             <MyImg image={image} />
           </div>
         </div>
-      </Slide>
     </>
   );
 }
