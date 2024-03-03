@@ -1,5 +1,4 @@
 import React from "react";
-import { Slide } from "react-awesome-reveal";
 
 function Contact() {
   return (
